@@ -5,16 +5,9 @@
   <description>GORM implementation for the MongoDB NoSQL database based on the Morphia library</description>
   <documentation>http://wiki.github.com/jkuehn/gorm-mongodb/</documentation>
   <type>MongodbMorphiaGrailsPlugin</type>
-  <resources>
-    <resource>org.acme.Project</resource>
-    <resource>org.acme.Task</resource>
-    <resource>org.acme.inheritance.Person</resource>
-    <resource>org.acme.inheritance.User</resource>
-    <resource>org.acme.Contact</resource>
-  </resources>
+  <resources />
   <repositories>
     <repository name='grailsCentral' url='http://grails.org/plugins' />
-    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
     <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
   </repositories>
   <dependencies />
